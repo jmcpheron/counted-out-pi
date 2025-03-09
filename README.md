@@ -2,7 +2,7 @@
 
 ![Pi Bracelet](images/cover.jpg)
 
-Express your love for mathematics with this flexible 3D printed bracelet! Designed specifically for the "Count It Out" movie screening event at Cal State Fullerton, this TPU bracelet combines style with mathematical significance.
+Express your love for mathematics with this flexible 3D printed bracelet! Designed specifically for the "Counted Out" film screening event in Fullerton on Pi Day, this TPU bracelet combines style with mathematical significance.
 
 ## Quick Start
 
@@ -32,7 +32,15 @@ TPU (Thermoplastic Polyurethane) is a flexible filament that creates comfortable
 
 ## About the Event
 
-This bracelet was created for the "Count It Out" movie screening at Cal State Fullerton's Mathematics Department. Join us to celebrate the beauty and wonder of mathematical concepts through film!
+This bracelet was created for the "Counted Out" film screening in Fullerton on Pi Day, March 14. The event is part of the global Pi Day celebrations.
+
+### Event Details:
+- **Date:** March 14 (Pi Day)
+- **Format:** Film screening followed by a discussion panel
+
+This screening is one of 314 showings of "Counted Out" happening globally throughout March in celebration of Pi Day. The award-winning documentary explores the role of mathematics education in addressing societal inequities through personal stories, expert interviews, and examples of mathematical transformations.
+
+The film honors Bob Moses, the civil rights icon who developed The Algebra Project to address the lack of access to rigorous mathematics learning in urban and rural schools.
 
 ## License
 
@@ -45,6 +53,3 @@ Designed by [Jason McPheron] ([@jmcpheron](https://github.com/jmcpheron))
 ---
 
 *Where mathematics meets wearable art!* 
-
-> Q: Are we not 3D prints?  
-> A: We are DEVO! 
