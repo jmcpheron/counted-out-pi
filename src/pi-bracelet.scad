@@ -14,12 +14,17 @@ num_holes = 3;         // Number of adjustment holes
 hole_spacing = 7;      // Distance between hole centers
 peg_offset = 5;        // Distance from end to peg
 
-// Center rectangular cutout parameters
-rect_width = 190;      // Width of the rectangular cutout
-rect_height = 8;      // Height of the rectangular cutout
-rect_bevel = 4;       // Bevel radius for the rectangular cutout
-rect_offset_x = -7;    // Horizontal offset from center (positive = right)
-rect_offset_y = 0;    // Vertical offset from center (positive = up)
+// Pi text parameters - replacing the cutout
+pi_text = "3.1415926535897932384";  // First 20 digits of pi
+text_size = 8;                      // Size of text (adjust to taste)
+text_height = 0.7;                  // Depth of embossed text
+text_offset_x = -7;                 // Horizontal offset (kept same as cutout)
+text_offset_y = 0;                  // Vertical offset
+text_width = 190;                   // Target width (same as previous cutout)
+
+// Border parameters
+border_thickness = 1;               // Thickness of top/bottom borders
+border_depth = 0.5;                 // Depth of embossed borders
 
 module rounded_band() {
     // Create the main band with rounded edges
@@ -38,24 +43,7 @@ module rounded_band() {
     }
 }
 
-// Rounded rectangle cutout module
-module rounded_rect_cutout(width, height, radius, thick) {
-    hull() {
-        translate([radius, radius, -0.1])
-        cylinder(r=radius, h=thick+0.2, $fn=30);
-        
-        translate([width - radius, radius, -0.1])
-        cylinder(r=radius, h=thick+0.2, $fn=30);
-        
-        translate([radius, height - radius, -0.1])
-        cylinder(r=radius, h=thick+0.2, $fn=30);
-        
-        translate([width - radius, height - radius, -0.1])
-        cylinder(r=radius, h=thick+0.2, $fn=30);
-    }
-}
-
-// Main bracelet body with cutouts
+// Main bracelet body with text and borders
 difference() {
     rounded_band();
     
@@ -65,10 +53,18 @@ difference() {
         cylinder(d=hole_diameter, h=height+0.2, $fn=30);
     }
     
-    // Add center rectangular cutout
-    // Position it in the center of the bracelet with optional offsets
-    translate([length/2 - rect_width/2 + rect_offset_x, width/2 - rect_height/2 + rect_offset_y, 0])
-    rounded_rect_cutout(rect_width, rect_height, rect_bevel, height);
+    // Add the pi text instead of the cutout
+    translate([length/2 + text_offset_x, width/2 + text_offset_y, height - text_height])
+    linear_extrude(height = text_height + 0.1)
+    text(pi_text, size = text_size, halign = "center", valign = "center", $fn = 40);
+    
+    // Add top border
+    translate([length/2 - text_width/2 + text_offset_x, width/2 + text_size/2 + border_thickness/2, height - border_depth])
+    cube([text_width, border_thickness, border_depth + 0.1]);
+    
+    // Add bottom border
+    translate([length/2 - text_width/2 + text_offset_x, width/2 - text_size/2 - border_thickness*1.5, height - border_depth])
+    cube([text_width, border_thickness, border_depth + 0.1]);
 }
 
 // Add a single peg on the other end with reinforced base
