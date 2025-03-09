@@ -1,0 +1,28 @@
+# OpenSCAD temporary files
+*.csg
+*.echo
+*.scad.deps
+
+# Slicer temporary files
+*.gcode
+*.3mf.bak
+*.stl.bak
+
+# OS specific files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Editor backup files
+*~
+*.bak
+*.swp
+
+# Build directories
+build/
+out/
+
+# Large binary files that might be accidentally committed
+*.zip
+*.rar
+*.7z 
