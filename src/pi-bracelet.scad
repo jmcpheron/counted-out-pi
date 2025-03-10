@@ -1,5 +1,5 @@
 // Bracelet basic parameters
-length = 225;    // Total length in mm
+length = 160;    // Total length in mm
 width = 12;      // Width of the band in mm
 height = 1.5;    // Thickness/height of the band in mm
 bevel_radius = 4; // Radius for the beveled/curved edges
@@ -10,17 +10,17 @@ peg_height = 2.6;      // Taller peg for better retention
 peg_top_diameter = 6; // Flared top for secure fastening
 peg_base_height = 1;   // Height of the reinforced base
 hole_diameter = 5.2;   // Slightly larger than peg for good fit
-num_holes = 3;         // Number of adjustment holes
+num_holes = 4;         // Number of adjustment holes
 hole_spacing = 7;      // Distance between hole centers
 peg_offset = 5;        // Distance from end to peg
 
 // Pi text parameters - replacing the cutout
-pi_text = "3.1415926535897932384";  // First 20 digits of pi
+pi_text = "3.1415926535897932...";     // First 17 digits of pi
 text_size = 8;                      // Size of text (adjust to taste)
 text_height = 0.7;                  // Depth of embossed text
 text_offset_x = -7;                 // Horizontal offset (kept same as cutout)
 text_offset_y = 0;                  // Vertical offset
-text_width = 190;                   // Target width (same as previous cutout)
+text_width = 115;                   // Target width (same as previous cutout)
 
 // Border parameters
 border_thickness = 1;               // Thickness of top/bottom borders
