@@ -16,6 +16,24 @@ Check out our latest 3D printed prototypes! These designs showcase the flexibili
 2. Print with TPU filament (95A flexibility recommended)
 3. Wear your mathematical pride on your wrist!
 
+## View Models on GitHub
+
+GitHub provides a built-in 3D viewer for STL files. Check out our models directly in your browser:
+
+- [View Pi Bracelet 3D Model](models/pi-bracelet.stl)
+- [View Spacer-42 3D Model](models/spacer-42.stl)
+- [View Spacer-128 3D Model](models/spacer-128.stl)
+- [View Spacer-254 3D Model](models/spacer-254.stl)
+
+## OpenSCAD Source Code
+
+Interested in customizing the designs? Check out the OpenSCAD source code:
+
+- [Pi Bracelet Source](src/pi-bracelet.scad)
+- [Spacer-42 Source](src/spacer-42.scad)
+- [Spacer-128 Source](src/spacer-128.scad)
+- [Spacer-254 Source](src/spacer-254.scad)
+
 ## Repository Contents
 
 - `src/` - OpenSCAD source files for customization
@@ -65,7 +83,7 @@ This project is released under the [Creative Commons Attribution 4.0 Internation
 
 ## Credits
 
-Designed by [Jason McPheron] ([@jmcpheron](https://github.com/jmcpheron))
+Designed by [Jason McPheron](https://github.com/jmcpheron)
 
 ---
 
