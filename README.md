@@ -21,38 +21,38 @@ Check out our latest 3D printed prototypes! These designs showcase the flexibili
 GitHub provides a built-in 3D viewer for STL files. Check out our models directly in your browser:
 
 - [View Pi Bracelet 3D Model](models/pi-bracelet.stl)
-- [View Spacer-42 3D Model](models/spacer-42.stl)
-- [View Spacer-128 3D Model](models/spacer-128.stl)
-- [View Spacer-254 3D Model](models/spacer-254.stl)
+- [View Circumfwrist-42 3D Model](models/circumfwrist-42.stl)
+- [View Circumfwrist-128 3D Model](models/circumfwrist-128.stl)
+- [View Circumfwrist-254 3D Model](models/circumfwrist-254.stl)
 
 ## OpenSCAD Source Code
 
 Interested in customizing the designs? Check out the OpenSCAD source code:
 
 - [Pi Bracelet Source](src/pi-bracelet.scad)
-- [Spacer-42 Source](src/spacer-42.scad)
-- [Spacer-128 Source](src/spacer-128.scad)
-- [Spacer-254 Source](src/spacer-254.scad)
+- [Circumfwrist-42 Source](src/circumfwrist-42.scad)
+- [Circumfwrist-128 Source](src/circumfwrist-128.scad)
+- [Circumfwrist-254 Source](src/circumfwrist-254.scad)
 
 ## Repository Contents
 
 - `src/` - OpenSCAD source files for customization
   - `pi-bracelet.scad` - Main Pi bracelet design
-  - `spacer-42.scad`, `spacer-128.scad`, `spacer-254.scad` - Mathematical spacer designs
+  - `circumfwrist-42.scad`, `circumfwrist-128.scad`, `circumfwrist-254.scad` - Mathematical circumfwrist designs
 - `models/` - Ready-to-print 3D model files (STL)
   - `pi-bracelet.stl` - Main Pi bracelet model
-  - `spacer-42.stl`, `spacer-128.stl`, `spacer-254.stl` - Mathematical spacer models
+  - `circumfwrist-42.stl`, `circumfwrist-128.stl`, `circumfwrist-254.stl` - Mathematical circumfwrist models
 - `images/` - Photos and renders of the bracelets
 
-## Bracelet Spacers
+## Bracelet Circumfwrists
 
-In addition to the main Pi bracelet, this repository includes designs for mathematical spacers that can be used to create custom bracelets:
+In addition to the main Pi bracelet, this repository includes designs for mathematical circumfwrists that can be used to create custom bracelets:
 
-- **Spacer-42**: The Answer to the Ultimate Question of Life, the Universe, and Everything
-- **Spacer-128**: A power of 2 (2^7) commonly used in computing
-- **Spacer-254**: One less than the maximum value of an 8-bit unsigned integer (2^8-2)
+- **Circumfwrist-42**: The Answer to the Ultimate Question of Life, the Universe, and Everything
+- **Circumfwrist-128**: A power of 2 (2^7) commonly used in computing
+- **Circumfwrist-254**: One less than the maximum value of an 8-bit unsigned integer (2^8-2)
 
-These spacers can be mixed and matched to create personalized mathematical bracelets.
+These circumfwrists can be mixed and matched to create personalized mathematical bracelets.
 
 ## Printing Tips
 
