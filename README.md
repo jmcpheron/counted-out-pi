@@ -1,14 +1,9 @@
 # Counted Out Pi: Mathematical Wearables 🧮π
 
-![Pi Bracelet](images/cover.jpg)
+![Pi Bracelet](images/prototypes.png)
 
 Express your love for mathematics with this flexible 3D printed bracelet! Designed specifically for the "Counted Out" film screening event in Fullerton on Pi Day, this TPU bracelet combines style with mathematical significance.
 
-## 3D Printed Prototypes
-
-![3D Printed Prototypes](images/prototypes.png)
-
-Check out our latest 3D printed prototypes! These designs showcase the flexibility and wearability of our mathematical bracelets.
 
 ## Quick Start
 
