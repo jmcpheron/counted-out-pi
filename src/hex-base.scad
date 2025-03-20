@@ -7,9 +7,9 @@ height = 1.5;    // Thickness/height of the band in mm
 bevel_radius = 2; // Radius for the beveled/curved edges
 
 // Peg parameters (further reduced for better fit between PLA pegs and TPU holes)
-peg_diameter = 4.4;    // Further reduced diameter (original was 5, then 4.8, then 4.6)
+peg_diameter = 4.6;    // Further reduced diameter (original was 5, then 4.8, then 4.6)
 peg_height = 2.6;      // Kept the same height
-peg_top_diameter = 5.2; // Further reduced flare (original was 6, then 5.7, then 5.4)
+peg_top_diameter = 5.4; // Further reduced flare (original was 6, then 5.7, then 5.4)
 peg_base_height = 1;   // Height of the reinforced base
 
 // Dual peg spacing (matching the hole spacing from original)
